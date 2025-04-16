@@ -15,7 +15,7 @@ echo "deb [trusted=yes] https://pavulla-tech.github.io/repo/deb ./" \
   | sudo tee /etc/apt/sources.list.d/katembed.list
 ```
 
-**📌 NOTE**\
+** NOTE**\
 The `trusted=yes` flag disables signature verification. This is required since the repository does not provide signed metadata.
 
 ### Update package metadata and install
